@@ -1,0 +1,29 @@
+.item .story_title { white-space: normal; min-height:3.6em;}
+.bar.bar-stable .title { text-transform: capitalize;}
+h3.home_text { text-align: center; margin-top: 30px; color:#333;}
+h4.home_text_2 {text-align: center; color:#444;}
+p.home_text_3 {text-align: center; margin-top:30px; color:#999; padding: 0 10px;}
+i.home_text_4 {font-size: 11px;}
+p.home_text_5 {text-align: center; font-size: 11px; color:#999; font-style: italic; font-family:monospace; }
+.mb-4 { margin-bottom: 40px;}
+.item .title_hurr { white-space: normal;}
+.item .content_hurr { white-space: normal;}
+.item .light { font-size: 12px; color:black;}
+
+#hurriyetDetContainer { padding:15px;}
+#hurriyetDetContainer h2 { font-size: 17px;}
+[nav-bar-transition="ios"] [nav-bar="active"] .bar.custom-header { background: #2196F3; box-shadow: 0px 3px 4px rgba(0,0,0,.3); border:none;}
+.bar.custom-header-dark-red { background:#B71C1C; border:none;box-shadow: 0px 3px 4px rgba(0,0,0,0);}
+.item-divider.custom-header-light-red{ background: #D32F2F; color:#fff;}
+.has-header { top:43px;}
+blockquote  {background:rgba(0,0,0,.08);}
+blockquote .selectionShareable { overflow: auto;}
+blockquote img.bImage { float: left; margin-right: 10px;}
+
+#detay { padding: 20px;}
+#detay .p-0 { padding: 0;}
+#detay .title-below { color:#aaa; margin: 10px 0 15px 0; border-bottom: 1px solid #ccc; padding-bottom: 5px}
+#detay .description { font-weight: bold; font-style: italic; margin-bottom: 15px;}
+#detay figure { margin-bottom:15px}
+#detay article { margin-bottom: 15px;}
+#detay figure img {max-width:100%;}

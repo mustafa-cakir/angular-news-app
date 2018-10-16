@@ -1,0 +1,27 @@
+<ion-view view-title="{{newsDetay.title}}">
+  <ion-content>
+    <div id="detay">
+
+      <h1>{{newsDetay.Title}}</h1>
+      <div class="row title-below p-0">
+        <div class="col p-0">
+          {{newsDetay.Editor}}
+        </div>
+        <div class="col text-right p-0">
+          <span am-time-ago="newsDetay.CreatedDate"></span>
+        </div>
+      </div>
+      <div class="description"><span ng-bind-html="newsDetay.Description"></span></div>
+      <figure>
+        <img ng-src="{{newsDetay.Files[0].FileUrl}}">
+      </figure>
+      <article>
+        <span ng-bind-html="newsDetay.Text"></span>
+      </article>
+
+      <div class="link">
+        <a href="{{newsDetay.Url}}" class="button button-full button-assertive icon icon-right ion-share" target="_blank">Open in Hurriyet.com</a>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

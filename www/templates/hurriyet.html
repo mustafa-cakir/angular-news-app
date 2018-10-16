@@ -1,0 +1,12 @@
+<ion-view view-title="{{topicTitle}}">
+  <ion-content>
+        <div class="list">
+          <a ng-repeat="new in news" ng-click="clickEvent($event)" data="teest" href="#/hurriyet/detay/{{new.Id}}" class="item item-thumbnail-left">
+            <img ng-src="{{new.Files[0].FileUrl}}">
+            <h2 class="title_hurr">{{new.Title}}</h2>
+            <p class="content_hurr">{{new.Description}}</p>
+            <p class="light"><span am-time-ago="new.CreatedDate"></span></p>
+          </a>
+        </div>
+  </ion-content>
+</ion-view>
